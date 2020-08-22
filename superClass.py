@@ -7,15 +7,15 @@ class Hero:
 	def info(self):
 		print("{} with health {}".format(self.name, self.health))
 
-class Hero_mage(Hero):
+class HeroMage(Hero):
 	def __init__(self, name):
 		super().__init__(name, 100)
 		super().info()
 
-class Hero_tank(Hero):
+class HeroTank(Hero):
 	def __init__(self, name):
 		super().__init__(name, 200)
 		super().info()
 
-cyclops = Hero_mage("cyclops")
-khurfa = Hero_tank("khurfa")
+cyclops = HeroMage("cyclops")
+khurfa = HeroTank("khurfa")
