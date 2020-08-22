@@ -20,7 +20,7 @@ class Hero:
 	# class method
 	@classmethod
 	def getTotal3(cls):
-			return cls.__total
+		return cls.__total
 
 sniper = Hero("sniper")
 print(Hero.getTotal2())
