@@ -6,15 +6,13 @@ class Hero:
 		self.__name = name
 		Hero.__total += 1
 
-	# method untuk objek
 	def getTotal(self):
 		return Hero.__total
 
-	# method untuk class
-	def getJTotal1():
+	def getTotal1():
 		return Hero.__total
 
-	# method static
+	# static method
 	@staticmethod
 	def getTotal2():
 		return Hero.__total
