@@ -5,7 +5,7 @@ main_window = tkinter.Tk()
 label1 = tkinter.Label(main_window, text = "Name")
 label2 = tkinter.Label(main_window, text = "Email")
 
-button1 = tkinter.Button(main_window, text = "Submit")
+button1 = tkinter.Button(main_window, text = "Confirm")
 button2 = tkinter.Button(main_window, text = "Cancel")
 
 label1.pack()
