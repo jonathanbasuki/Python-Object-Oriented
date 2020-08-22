@@ -4,7 +4,6 @@ class Hero:
 		self.name = name
 		self.__health = health
 		self.__armor = armor
-		#self.info = "name : {} \n\thealth : {}".format(self.name, self.__health)
 
 	# decorator property = change method to variable
 	@property
@@ -35,6 +34,7 @@ sniper = Hero("sniper", 100, 10)
 
 print("changing info :")
 print(sniper.info)
+
 # property
 sniper.name = "rusher"
 print(sniper.info)
