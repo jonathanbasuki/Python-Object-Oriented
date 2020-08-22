@@ -1,18 +1,18 @@
 class HP:
 	"""docstring for HP"""
-	def __init__(self, nama, price):
-		self.nama = nama
+	def __init__(self, name, price):
+		self.name = name
 		self.price = price
 
-	# biasanya untuk debuggin
+	# used for debuggin
 	def __repr__(self):
-		return "Debug - iPhone : {} Price : {}M".format(self.nama, self.price)
+		return "Debug - iPhone : {} Price : {}M".format(self.name, self.price)
 
-	# biasanya dipake setelah debuggin
+	# used after debuggin
 	def __str__(self):
-		return "iPhone : {} Price : {}M".format(self.nama, self.price)
+		return "iPhone : {} Price : {}M".format(self.name, self.price)
 
-	# magic method aritmatik (+)
+	# magic method = arithmetic
 	def __add__(self, object):
 		return self.price + object.price
 
