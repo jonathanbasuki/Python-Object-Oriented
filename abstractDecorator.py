@@ -28,4 +28,4 @@ class RadioButton(Button):
 		return self.__link
 
 button1 = RadioButton("www.instagram.com/jonathanbasuki")
-button1.Click()		
+button1.Click()	
