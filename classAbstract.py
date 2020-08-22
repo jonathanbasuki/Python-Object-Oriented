@@ -19,4 +19,4 @@ class Checkbox(Button):
 button1 = RadioButton()
 button2 = Checkbox()
 button1.Click()
-button2.Click()						
+button2.Click()
