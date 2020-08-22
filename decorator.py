@@ -6,7 +6,7 @@ class Hero:
 		self.__armor = armor
 		#self.info = "name : {} \n\thealth : {}".format(self.name, self.__health)
 
-	# decorator properti = mengubah method menjadi variable
+	# decorator property = change method to variable
 	@property
 	def info(self):
 		return "name : {} \n\thealth : {}".format(self.name, self.__health)
@@ -15,20 +15,17 @@ class Hero:
 	def armor(self):
 		pass
 
-	# getter
-	# mengambil nilai armor
+	# getter = take the armor value
 	@armor.getter
 	def armor(self):
 		return self.__armor
 
-	# setter
-	# men-setting nilai armor
+	# setter = set the armor value
 	@armor.setter
 	def armor(self, input):
 		self.__armor = input
 
-	# deleter
-	# menghapus nilai armor
+	# deleter = delete the armor value
 	@armor.deleter
 	def armor(self):
 		print("armor deleted")
