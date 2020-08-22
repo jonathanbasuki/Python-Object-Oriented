@@ -7,10 +7,12 @@ class Hero:
 	def info(self):
 		print("{} \n\tType : Hero \n\tHealth : {}".format(self.name, self.health))
 
+# subclass
 class Mage(Hero):
 	def __init__(self, name):
 		super().__init__(name, 100)
 
+# subclass
 class Tank(Hero):
 	def __init__(self, name):
 		super().__init__(name, 200)
